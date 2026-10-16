@@ -1,0 +1,153 @@
+$date
+	Fri Oct 16 02:05:05 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module tb $end
+$var wire 4 ! q [3:0] $end
+$var reg 1 " clk $end
+$var reg 4 # expected [3:0] $end
+$var reg 1 $ preset $end
+$var reg 1 % reset $end
+$var reg 1 & ud $end
+$scope module t1 $end
+$var wire 1 " clk $end
+$var wire 1 $ preset $end
+$var wire 1 % reset $end
+$var wire 1 & ud $end
+$var reg 4 ' q [3:0] $end
+$upscope $end
+$scope task test_step $end
+$var reg 1 ( preset_i $end
+$var reg 1 ) reset_i $end
+$var reg 1 * ud_i $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1*
+1)
+0(
+bx '
+1&
+0%
+0$
+b0 #
+0"
+bx !
+$end
+#50
+1"
+#100
+1%
+0"
+#150
+b0 !
+b0 '
+1"
+#200
+0"
+#250
+1"
+#260
+1(
+0)
+#300
+1$
+0%
+0"
+#350
+b1111 !
+b1111 '
+b1111 #
+1"
+#360
+0(
+#400
+0$
+0"
+#450
+b0 !
+b0 '
+b0 #
+1"
+#500
+0"
+#550
+b1 !
+b1 '
+b1 #
+1"
+#600
+0"
+#650
+b10 !
+b10 '
+b10 #
+1"
+#660
+1(
+#700
+1$
+0"
+#750
+b1111 !
+b1111 '
+b1111 #
+1"
+#760
+0*
+0(
+#800
+0&
+0$
+0"
+#850
+b1110 !
+b1110 '
+b1110 #
+1"
+#900
+0"
+#950
+b1101 !
+b1101 '
+b1101 #
+1"
+#960
+1(
+1)
+#1000
+1$
+1%
+0"
+#1050
+b0 !
+b0 '
+b0 #
+1"
+#1060
+0(
+0)
+#1100
+0$
+0%
+0"
+#1150
+b1111 !
+b1111 '
+b1111 #
+1"
+#1200
+0"
+#1250
+b1110 !
+b1110 '
+b1110 #
+1"
+#1260
